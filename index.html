@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPeU- ivan paredes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #e95959;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 16px;
+            background-color: #388E3C;
+            border-radius: 4px;
+        }
+
+        nav ul li a:hover {
+            background-color: #2E7D32;
+            text-decoration: underline;
+        }
+
+        /* Estilos de la sección principal */
+        main {
+            padding: 30px 0;
+        }
+
+        /* Sección de Inicio */
+        #inicio {
+            background-color: #2d5085;
+            padding: 40px 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        #inicio p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        /* Sección de Bibliografía */
+        #bibliografia {
+            background-color: #FFCDD2;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        #bibliografia p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        /* Sección de Habilidades */
+        #habilidades {
+            background-color: #BBDEFB;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        #habilidades ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        #habilidades ul li {
+            background-color: #1976D2;
+            color: white;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Sección de Proyectos */
+        #proyectos {
+            background-color: #FFE082;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        #proyectos ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        #proyectos ul li {
+            background-color: #F57C00;
+            color: white;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Sección de Contacto */
+        #contacto {
+            background-color: #E1BEE7;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        #contacto a {
+            text-decoration: none;
+            color: #6A1B9A;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 10px 15px;
+            border: 2px solid #6A1B9A;
+            border-radius: 5px;
+        }
+
+        #contacto a:hover {
+            background-color: #6A1B9A;
+            color: white;
+        }
+
+        /* Sección de Pasatiempos */
+        #pasa-tiempos {
+            background-color: #A5D6A7;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        #pasa-tiempos ul {
+            padding-left: 20px;
+            list-style-type: square;
+        }
+
+        /* Sección de Intereses Musicales */
+        #intereses-musicales {
+            background-color: #FFEB3B;
+            padding: 40px 20px;
+            border-radius: 10px;
+        }
+
+        #intereses-musicales ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        /* Estilos de texto en secciones */
+        h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        p,
+        ul li {
+            font-size: 1.1rem;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Ivan Deniels Paredes Mendoza</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#bibliografia">Bibliografía</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#pasa-tiempos">Pasatiempos</a></li>
+                    <li><a href="#intereses-musicales">Intereses Musicales</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Inicio -->
+        <section id="inicio">
+            <div class="container">
+                <h2>Inicio</h2>
+                <p>¡Hola! Bienvenido a mi página web personal. Aquí encontrarás información sobre mí, mis habilidades,
+                    proyectos, pasatiempos e intereses musicales. ¡Explora y conoce más sobre mí! por ejemplo UNA FOTO DE MI SALON</p>
+
+                <img src="grupo4.jpg" alt="Mi Logo" class="logo">
+            </div>
+        </section>
+
+        <!-- Bibliografía -->
+        <section id="bibliografia">
+            <div class="container">
+                <h2>Bibliografía</h2>
+                <p>¡Hola! Soy Iván Daniels Paredes Mendoza, estudiante de Administración y Negocios Internacionales en la Universidad Peruana Unión, campus Juliaca, actualmente en el 8vo ciclo, grupo 4. Me apasiona el mundo de los negocios y la gestión internacional, donde busco aplicar mis conocimientos para contribuir al desarrollo de proyectos innovadores y sostenibles. A través de mi formación académica, he adquirido habilidades en gestión, análisis de mercado y estrategias de negocio, que espero utilizar para enfrentar los desafíos del entorno empresarial. Estoy emocionado por las oportunidades que se presentan en este campo y por el impacto que puedo generar en la comunidad.</p>
+                <iframe width="1156" height="650" src="https://www.youtube.com/embed/QSAJ3J9yzXY"
+                    title="KARAOKE / UPeU INSTITUCIONAL 2022 &quot;I WILL GO&quot;" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Desarrollo Web: HTML, CSS, JavaScript</li>
+                    <li>Desarrollo Backend: Python, Node.js</li>
+                    <li>Bases de datos: MySQL, MongoDB</li>
+                    <li>Control de versiones: Git, GitHub</li>
+                    <li>Optimización SEO</li>
+                </ul>
+                <iframe width="1156" height="650" src="https://www.youtube.com/embed/Zk9J5xnTVMA"
+                    title="Road to Machu Picchu - Peru in 4K" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <!-- Proyectos -->
+            <section id="proyectos">
+                <div class="container">
+                    <h2>Proyectos</h2>
+                    <ul>
+                        <li><strong>Proyecto 1:</strong> Descripción breve de tu primer proyecto.</li>
+                        <li><strong>Proyecto 2:</strong> Descripción breve de tu segundo proyecto.</li>
+                        <li><strong>Proyecto 3:</strong> Descripción breve de tu tercer proyecto.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Contacto -->
+            <section id="contacto">
+                <div class="container">
+                    <h2>Contacto</h2>
+                    <p>Si deseas contactarme, puedes hacerlo a través del siguiente correo electrónico: <a
+                            href="mailto:correo@ejemplo.com">correo@ejemplo.com</a>.</p>
+                </div>
+            </section>
+
+            <!-- Pasatiempos -->
+            <section id="pasa-tiempos">
+                <div class="container">
+                    <h2>Pasatiempos</h2>
+                    <p>Me gusta disfrutar de diversas actividades en mi tiempo libre, como:</p>
+                    <ul>
+                        <li>Leer libros de ciencia ficción</li>
+                        <li>Hacer senderismo y disfrutar de la naturaleza</li>
+                        <li>Jugar videojuegos</li>
+                        <li>Viajar y conocer nuevos lugares</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Intereses Musicales -->
+            <section id="intereses-musicales">
+                <div class="container">
+                    <h2>Intereses Musicales</h2>
+                    <p>Tengo una gran pasión por la música. Algunos de mis géneros favoritos incluyen:</p>
+                    <ul>
+                        <li>Rock clásico</li>
+                        <li>Jazz</li>
+                        <li>Blues</li>
+                        <li>Pop</li>
+                    </ul>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
